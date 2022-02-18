@@ -33,7 +33,17 @@ class Net(nn.Module):
 
         ### Pooling layer
         self.pool = nn.MaxPool2d(kernel_size=2, stride=2)
-
+        
+        ##### notes #####
+        # [(W−K+2*P)/S]+1$
+        
+        # conv1's output = (224 - 4)/1  + 1 = 221
+        # maxpooling1 output = (32, 110, 110)
+        # maxpooling2 output = (64, 55, 55)
+        # maxpooling3 output = (128, 27, 27)
+        # maxpooling4 output = (256, 13, 13) # -> input for fc1 layer
+        #################
+        
         ## Dropout layers
         self.dropout1 = nn.Dropout(p=0.1)
         self.dropout2 = nn.Dropout(p=0.2)
