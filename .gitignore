@@ -132,3 +132,6 @@ dmypy.json
 1710.00977.pdf
 data/
 keypoints_model_1.pt
+
+# project2
+models/
