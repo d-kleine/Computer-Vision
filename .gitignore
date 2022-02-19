@@ -128,6 +128,9 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
+# general files
+2201.02028.pdf
+
 # project1
 1710.00977.pdf
 data/
