@@ -2,6 +2,26 @@
 
 This repository contains code exercises and materials for Udacity's [Computer Vision Nanodegree](https://www.udacity.com/course/computer-vision-nanodegree--nd891) program. It consists of tutorial notebooks that demonstrate, or challenge you to complete, various computer vision applications and techniques. These notebooks depend on a number of software packages to run, and so, we suggest that you create a local environment with these dependencies by following the instructions below.
 
+**Computer vision capabilities for various applications such as image and video processing, autonomous vehicle navigation, medical diagnostics, and smartphone apps, etc.**
+
+*Project 1: Facial Keypoint Detection*
+
+Basics of Computer Vision and image processing:
+* Extract important features from image data 
+* Apply deep learning techniques to classification tasks
+
+*Project 2: Automatic Image Captioning*
+
+Combine CNN and RNN networks to create an auto caption application: 
+* Split complex deep learning models into two components: a CNN that converts an input image into a set of features, and an RNN that converts those features into a rich, descriptive language
+
+*Project 3: Landmark Detection & Tracking*
+
+Locate objects and track them over time: 
+* Feature detection and keypoint descriptors to create a map of the environment using SLAM (simultaneous localization and mapping)
+* Implement robust methods for tracking an object over time using elements of probability, motion models, and linear algebra
+
+
 # Configure and Manage Your Environment with Anaconda
 
 Per the Anaconda [docs](http://conda.pydata.org/docs):
