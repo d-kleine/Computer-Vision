@@ -10,10 +10,14 @@ Basics of Computer Vision and image processing:
 * Extract important features from image data 
 * Apply deep learning techniques to classification tasks
 
+[Project](https://github.com/d-kleine/Computer-Vision/tree/main/Project1_Facial-Keypoints)
+
 *Project 2: Automatic Image Captioning*
 
 Combine CNN and RNN networks to create an auto caption application: 
 * Split complex deep learning models into two components: a CNN that converts an input image into a set of features, and an RNN that converts those features into a rich, descriptive language
+
+[Project](https://github.com/d-kleine/Computer-Vision/tree/main/Project2_Image-Captioning)
 
 *Project 3: Landmark Detection & Tracking*
 
@@ -21,6 +25,7 @@ Locate objects and track them over time:
 * Feature detection and keypoint descriptors to create a map of the environment using SLAM (simultaneous localization and mapping)
 * Implement robust methods for tracking an object over time using elements of probability, motion models, and linear algebra
 
+[Project](https://github.com/d-kleine/Computer-Vision/tree/main/Project3_Landmark%20Detection)
 
 # Configure and Manage Your Environment with Anaconda
 
